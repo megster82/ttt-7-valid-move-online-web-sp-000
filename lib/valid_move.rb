@@ -15,7 +15,7 @@ end
     end
   end
 
-  if on_board?(index) && position_taken? (board, index)
+  if on_board?(index) == true && position_taken?(board, index) == false
     return true
   else
     return false
