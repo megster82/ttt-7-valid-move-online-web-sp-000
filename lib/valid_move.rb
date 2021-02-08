@@ -6,8 +6,8 @@ def valid_move?(board, index)
     return true
   end 
 
-  def position_taken?(ind)
-    if index.between?(0,8)
+  def on_board?(ind)
+    if ind.between?(0,8)
       return true
     else
       return false
@@ -19,3 +19,4 @@ def valid_move?(board, index)
     return false
   end
   
+end
