@@ -14,7 +14,6 @@ def position_taken?(board, index)
   end 
 end
 
-def on_board?(board, index)
   if valid_move? && !position_taken
     return true
   else
