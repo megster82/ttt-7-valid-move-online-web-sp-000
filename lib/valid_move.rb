@@ -1,13 +1,13 @@
 def valid_move?(board, index)
-  def position_taken?(board, index)
-    if board[index] == " " || board[index] == "" || board[index] == nil
+  def position_taken?(array, ind)
+    if array[ind] == " " || array[ind] == "" || array[ind] == nil
     return false
   else
     return true
   end 
 
-  def on_board?(index)
-    if index.between?(0,8) == true 
+  def on_board?(number)
+    if number.between?(0,8) == true 
       return true
     else
       return false
