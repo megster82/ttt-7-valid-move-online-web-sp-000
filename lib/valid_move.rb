@@ -20,4 +20,3 @@ def on_board?(board, index)
   else
     return false
   end
-end
